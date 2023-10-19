@@ -19,7 +19,9 @@
     "noFallthroughCasesInSwitch": false,
     "paths": {
       "@src/*": ["./src/*"],
-      "@commons/*": ["./src/commons/*"]
+      "@commons/*": ["./src/commons/*"],
+      "@index-module": ["./src/modules/index.module"],
+      "@auth-module/*": ["./src/modules/auth/*"]
     }
   }
 }

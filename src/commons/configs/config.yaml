@@ -1,2 +1,3 @@
 http:
   port: ${PORT}
+  maxTimeout: ${MAX_TIMEOUT}
